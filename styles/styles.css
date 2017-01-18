@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	font-family: 'Karla', sans-serif;
+	background: #fff;
+}
+  
+header {
+    width: 100%;
+	background-size: cover;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    position: relative;	
+}  
+
+a {
+	color: #b45eff;
+}
+
+p {
+	line-height: 160%;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 50px;
+    color: #b45eff;
+    background: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+
+header {
+    height: 40vh;
+    background-color: #8428ff;
+   	background-position: 100px 600px;
+    background-image: url("../images/background.jpg");
+    // clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    clip-path: url(../images/clip2.svg#svgClip);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+section {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    // clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+    clip-path: url(../images/clip.svg#svgClip);
+    -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+    -moz-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+}
+
+.panel__top {
+    background-image: url("../images/background3.jpg");
+}
+
+.panel__bottom {
+    background-image: url("../images/background4.jpg");
+}
+
+.container {
+    width: 60vw;
+    margin: -10vh auto;
+    padding: 15vh 0;
+    position: relative;
+    z-index: 10;
+}
+
+.container-wrapper.top {
+    background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+    color: #fff;
+}
+
+.container-wrapper.middle {
+    background: #FAB412;
+}
+
+
+
